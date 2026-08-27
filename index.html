@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0">
     <title>chatbot IA</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css"/>
   </head>
   <body>
-      <header>
-        <h1>chatbot de isabella</h1>
-      </header>
-      <div id="chat-box">
-        
+      <div>
+          <header>
+            <h1>chatbot de isabella</h1>
+          </header>
+          <div id="chat-box">   
+            <div class="message user-message">hola</div>
+            <div class="message bot-message">hola</div>
+          </div>
+        <div class="input-area">
+          <input type="text" id="user-input" placeholder="escribe...">
+          <button id="send-btn">enviar</button>
+        </div>
       </div>
-      <script src="script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
